@@ -12,7 +12,7 @@ In this lab, we will set up a basic Windows networking environment with Active D
 
 - <b>Virtualbox 7.0</b>
 - <b>Windows 10 Pro</b>
-- <b>Windows Server 2019</b> 
+- <b>Windows Server 2022</b> 
 
 
 <h2>Project walk-through:</h2>
