@@ -14,19 +14,16 @@ In this lab, we will set up a basic Windows networking environment with Active D
 - <b>Windows 10 Pro</b>
 - <b>Windows Server 2022</b> 
 
-
-Here’s a more detailed version of the repository setup summary for your lab:
-
 ---
 
-### **Lab Setup Summary**
+<h2>Lab Setup Summary </h2>
 
 **Environments Used:**
 - **VirtualBox 7.0:** Used to create and run virtual machines (VMs) for the domain controller (DC) and client.
 - **Windows 10 Pro:** Installed on the client VM to connect to the domain.
 - **Windows Server 2022:** Installed on the Domain Controller (DC) VM to manage the network, Active Directory, and DHCP.
 
-### **Detailed Walkthrough:**
+<h2>Detailed Walkthrough </h2>
 
 1. **VM Setup and Configuration:**
    - **Create Domain Controller (DC) VM:**
