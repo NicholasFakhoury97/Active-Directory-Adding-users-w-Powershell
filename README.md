@@ -80,7 +80,3 @@ Here’s a more detailed version of the repository setup summary for your lab:
 
 ---
 
-This detailed summary captures the full process of setting up a virtual lab environment using VirtualBox, configuring Active Directory, routing, DHCP, and PowerShell automation, as well as adding a client to the domain and verifying the configuration. Let me know if you'd like to adjust or add more information!
-@@ text in purple (and bold)@@
-```
---!>
