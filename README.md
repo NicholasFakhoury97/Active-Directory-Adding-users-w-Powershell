@@ -23,7 +23,6 @@ In this lab, we will set up a basic Windows networking environment with Active D
 - **Windows 10 Pro:** Installed on the client VM to connect to the domain.
 - **Windows Server 2022:** Installed on the Domain Controller (DC) VM to manage the network, Active Directory, and DHCP.
 
-<h2>Detailed Walkthrough </h2>
 
    <h2>VM Setup and Configuration </h2>
    - **Create Domain Controller (DC) VM:**
