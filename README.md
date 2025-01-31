@@ -16,6 +16,10 @@ In this lab, we will set up a basic Windows networking environment with Active D
 
 ---
 
+![image](https://github.com/user-attachments/assets/1b926cd3-edba-477d-9549-8ed633ec1a32)
+
+
+
 <h2>Lab Setup Summary </h2>
 
 **Environments Used:**
@@ -35,7 +39,6 @@ In this lab, we will set up a basic Windows networking environment with Active D
      - After installing the server, set **static IP** for the internal network adapter (`172.16.0.1`), and configure the external adapter to auto-configure via the router.
 
 ![image](https://github.com/user-attachments/assets/1f37984e-eb4b-4008-b487-bd752c0ffe32)
-
 
 
    <h2>Install and Configure Active Directory Domain Services (AD DS) </h2>
