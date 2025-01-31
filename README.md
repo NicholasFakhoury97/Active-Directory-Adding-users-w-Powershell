@@ -26,10 +26,12 @@ In this lab, we will set up a basic Windows networking environment with Active D
 
    <h2>VM Setup and Configuration </h2>
    - **Create Domain Controller (DC) VM:**
+   
      - In **VirtualBox**, create a new VM and install **Windows Server 2022**.
+ 
      - Set up two network adapters:
-       - **Adapter 1:** NAT (external internet connection).
-       - **Adapter 2:** Internal (private network connection).
+       - **Adapter 1:** NAT (external internet connection)
+       - **Adapter 2:** Internal (private network connection)
      - After installing the server, set **static IP** for the internal network adapter (`172.16.0.1`), and configure the external adapter to auto-configure via the router.
 
 ![image](https://github.com/user-attachments/assets/1f37984e-eb4b-4008-b487-bd752c0ffe32)
