@@ -93,11 +93,5 @@ In this lab, we will set up a basic Windows networking environment with Active D
      - Enable **Remote Desktop (RDP)** access on the Windows client and configure the **Windows Firewall** rules to allow RDP traffic.
      - Verify that the **RDP** connection works between the client and the domain controller.
    
-   - **Group Policy Configuration:**
-     - Use **Group Policy** to block RDP access for specific users or machines by configuring **GPOs** linked to the **Organizational Unit**.
-
- <h2>Troubleshooting </h2>
-   - Monitor and document any issues encountered during the setup, such as network connectivity problems, DHCP server authorization issues, or user account creation failures.
-
----
+ ![Screenshot 2025-01-30 212316](https://github.com/user-attachments/assets/29adc0b8-a743-4ece-bab8-c9cd1e6edb1e)
 
