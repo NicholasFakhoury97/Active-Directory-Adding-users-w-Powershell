@@ -42,27 +42,43 @@ In this lab, we will set up a basic Windows networking environment with Active D
 
 
    <h2>Install and Configure Active Directory Domain Services (AD DS) </h2>
+  
    - From the **Server Manager**, install the **Active Directory Domain Services** role.
+     
    - After installation, promote the server to a **Domain Controller** by setting up a new domain (e.g., **mydomainlab.com**).
+     
    - Configure DNS and set up the **Domain Controller Options** with a password for the Directory Services.
-   
+
+![Screenshot 2025-01-30 205041](https://github.com/user-attachments/assets/f61096f0-0b33-4c8a-b72e-662e6e043752)
+
+
+
    <h2>Create Domain, Organizational Units, and Users </h2>
    - Once the Domain Controller is set up, use **Active Directory Users and Computers** to:
      - Create a new **Organizational Unit (OU)**, e.g., **_ADMINS**.
      - Add a new user, **Jon Doe**, and assign them to the **Domain Admins** group.
+     
    - This user will have administrative privileges, and you can log into the domain with their credentials.
+
+![Screenshot 2025-01-30 204753](https://github.com/user-attachments/assets/8fd99796-221b-48e0-bcfa-2e5bd37f4b6e)
 
    <h2>Network Configuration - Routing and DHCP Setup </h2>
    - **Enable Routing & NAT:**
      - In the **Server Manager**, install the **Routing and Remote Access** role to allow **Network Address Translation (NAT)**, enabling internet access for the internal network.
      - Configure the domain controller as the **public interface** for the routing and complete the setup.
-   
+ 
    - **Set up DHCP:**
      - Install the **DHCP Server** role through the **Server Manager** and configure a **DHCP scope** to assign IP addresses (e.g., from `172.16.0.100` to `172.16.0.200`).
      - Set the **DC Server** as the **default gateway** for clients and authorize the DHCP server.
 
+![Screenshot 2025-01-30 205842](https://github.com/user-attachments/assets/898af947-ef18-40c6-8eae-273aba5989d8)
+![Screenshot 2025-01-30 205926](https://github.com/user-attachments/assets/9e5f7e0f-063c-47b7-8725-1afd385f407b)
+
+
    <h2>Create Users Using PowerShell </h2>
    - Use **PowerShell scripts** to automate the creation of 1,000 domain users. By setting the **execution policy** to **Unrestricted**, the script can be executed to add multiple users efficiently.
+
+   ![Screenshot 2025-01-30 210549](https://github.com/user-attachments/assets/846160bf-b326-40d9-aa90-88fb0c86c8c7)
 
    <h2>Client Setup </h2>
    - **Install Windows 10 Client:**
